@@ -1,7 +1,6 @@
 def mario
   phrase = "It's-a me, Mario!"
   puts phrase
-  return status
 end
 
 def toadstool
@@ -14,3 +13,8 @@ def link
   puts popular_phrase
 end
 
+def all_phrases
+  mario
+  toadstool
+  link
+end
